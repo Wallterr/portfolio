@@ -1,9 +1,11 @@
 import styles from './ButtonB.module.css'
 
-function ButtonB({text}){
+function ButtonB({text, link}){
     return(
         <div>
-          <button className={styles.btnB}> {text} </button> 
+            <a href={link}>
+              <button className={styles.btnB}> {text} </button>
+            </a>
         </div>
     )
 }

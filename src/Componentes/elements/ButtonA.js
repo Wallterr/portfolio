@@ -6,9 +6,7 @@ function ButtonA({text, link}){
             <a href={link} >
                 <button className={styles.btn} > {text} </button>
             </a>
-        </div>
-        
-        
+        </div>     
     )
 }
 
